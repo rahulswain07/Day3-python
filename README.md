@@ -1,21 +1,21 @@
-Day 3 - Python Challenge: Variables, Data Types & Input
+# 🐍 100 Days of Python Challenge
 
-Today I continued my Python journey by learning about variables, data types, and the input() function.
+Hi! I'm Rahul, and this is my journey to master Python in 100 days.  
+Every day, I learn something new and practice by writing code.  
+I aim to become a Python developer and build AI tools in the future.
 
-🔹 Variables: I learned how to create variables to store data like numbers, text, or boolean values. I understood that variable names should be meaningful and can't start with a number.
+---
 
-🔹 Data Types: I explored the main data types in Python:
+## 📅 Day 3 - Variables, Data Types, and Input
 
-int for integers (e.g., 5)
+### ✔️ Topics Covered:
+- Variables in Python
+- Basic Data Types: `int`, `float`, `str`, `bool`
+- `input()` function
+- Type conversion: `int()`, `float()`, `str()`
 
-float for decimals (e.g., 3.14)
-
-str for strings (e.g., "Hello")
-
-bool for boolean values (True or False)
-
-I practiced using the type() function to check the data type of a variable.
-
-🔹 Input Function: I learned how to take user input using input() and how all inputs are treated as strings by default. I also learned how to convert inputs to int or float when needed using int() and float().
-
-🔸 Practice Example:
+### 💻 Sample Code:
+```python
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print("Hello", name, "- You are", age, "years old.")
